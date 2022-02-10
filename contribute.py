@@ -119,7 +119,7 @@ def arguments(argsval):
     parser.add_argument('-ue', '--user_email', type=str, required=False, default="pioneerdev1023@gmail.com",
                         help="""Overrides user.email git config.
                         If not specified, the global config is used.""")
-    parser.add_argument('-da', '--days_ago', type=int, required=False, default=1000,
+    parser.add_argument('-da', '--days_ago', type=int, required=False, default=1200,
                         help="""Show them if you want to contribute a few days in advance.""")
     parser.add_argument('-sd', '--start_date', type=str, required=False,
                         help="""Start Date.""")
