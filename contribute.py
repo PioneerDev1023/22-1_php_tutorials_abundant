@@ -102,7 +102,7 @@ def arguments(argsval):
                         from 1 to N times a day. The exact number of commits
                         is defined randomly for each day. The default value
                         is 10.""")
-    parser.add_argument('-fr', '--frequency', type=int, default=50,
+    parser.add_argument('-fr', '--frequency', type=int, default=35,
                         required=False, help="""Percentage of days when the
                         script performs commits. If N is specified, the script
                         will commit N%% of days in a year. The default value
@@ -119,7 +119,7 @@ def arguments(argsval):
     parser.add_argument('-ue', '--user_email', type=str, required=False, default="pioneerdev1023@gmail.com",
                         help="""Overrides user.email git config.
                         If not specified, the global config is used.""")
-    parser.add_argument('-da', '--days_ago', type=int, required=False, default=1200,
+    parser.add_argument('-da', '--days_ago', type=int, required=False, default=1400,
                         help="""Show them if you want to contribute a few days in advance.""")
     parser.add_argument('-sd', '--start_date', type=str, required=False,
                         help="""Start Date.""")
